@@ -1,0 +1,6 @@
+services:
+  web-service:
+    image: devopsdockeruh/simple-web-service:alpine
+    command: server
+    ports:
+      - 8000:8080
